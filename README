@@ -11,7 +11,7 @@ You can download the latest release from the [releases page](https://github.com/
 To use one-for-all-amiibo, simply run the binary and pass the paths of the input files as arguments. For example:
 
 
-./one-for-all-amiibo input1.bin input2.bin input3.bin output.bin
+`./one-for-all-amiibo input1.bin input2.bin input3.bin output.bin`
 
 
 This command will combine the data from `input1.bin`, `input2.bin`, and `input3.bin`, and write the resulting data to `output.bin`.
@@ -22,7 +22,7 @@ This command will combine the data from `input1.bin`, `input2.bin`, and `input3.
 If you want to build one-for-all-amiibo from source, you will need to have Rust installed. You can then clone the repository and run the following command:
 
 
-cargo build –release
+`cargo build –release`
 
 
 This will build the binary in release mode, which is optimized for performance.
