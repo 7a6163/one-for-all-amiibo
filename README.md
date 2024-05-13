@@ -11,10 +11,10 @@ You can download the latest release from the [releases page](https://github.com/
 To use one-for-all-amiibo, simply run the binary and pass the paths of the input files as arguments. For example:
 
 
-`./one-for-all-amiibo input1.bin input2.bin input3.bin`
+`./one-for-all-amiibo input1.bin input2.bin output.bin`
 
 
-This command will combine the data from `input1.bin`, `input2.bin`, and `input3.bin`, and write the resulting data to `combined.bin`.
+This command will combine the data from `input1.bin` and `input2.bin`, and write the resulting data to `output.bin`.
 
 
 ## Development
